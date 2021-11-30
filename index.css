@@ -2,8 +2,8 @@
     margin: 0;
 }
 
-body {
-    /* background-color: black; */
+body{
+    background-color: black;
 }
 
 #top_box {
@@ -12,7 +12,7 @@ body {
     height: 100px;
     background-color: rgb(199, 144, 6);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #top_box, h1 {
@@ -30,15 +30,14 @@ body {
 
 .top_pannel {
     color:black;
-    font-weight: bold;
+    font-weight: bolder;
     padding-top: 10px;
-    gap:15px;
+    gap:0px;
     margin-left: 15px;
     list-style-type: none;
     border: 1px solid;
-    border-radius: 60px;
     width: 100px;
-    height: 30px;
+    height: 90px;
     background-color: rgb(199, 144, 6);
     transition: 0.2s;
     cursor: pointer;
@@ -60,4 +59,11 @@ body {
 }
 
 #form{
+    color:red;
+}
+
+#botao{
+    background-image: url("img/logoe.png");
+    width: 100%;
+    height: 100%;
 }
