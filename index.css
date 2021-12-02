@@ -1,15 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(rgb(199, 144, 6), black);
-    background-repeat: ;
-    background-size: 100%;
+    display:flex;
+    flex-direction: column;
 }
 
 #top_box {
